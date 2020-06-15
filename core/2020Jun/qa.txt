@@ -1,0 +1,48 @@
+﻿BeOnFHIR : Validation Results
+=========================================
+
+err = 17, warn = 9, info = 0
+IG Publisher Version: v1.0.100-SNAPSHOT
+Generated Mon Jun 15 22:53:34 CEST 2020. FHIR version 4.0.1 for hl7.be.fhir.core#2020Jun (canonical = http://hl7belgium.org/fhir/core)
+
+ Build Errors : 4 / 5
+ C:\ImplementationGuides\sample-ig\input\examples\Binary-example : 0 / 0
+ C:\ImplementationGuides\sample-ig\input\examples\Library-example : 6 / 1
+ C:\ImplementationGuides\sample-ig\input\history\h1 : 3 / 1
+ C:\ImplementationGuides\sample-ig\input\myig : 0 / 0
+ C:\ImplementationGuides\sample-ig\input\resources\myObservation : 2 / 1
+ C:\ImplementationGuides\sample-ig\input\resources\valueset-no-codesystem : 2 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: C:\ImplementationGuides\sample-ig\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/valueset-no-codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Bundle/h1.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/h1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Binary/example.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Library/library-example.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/library-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== C:\ImplementationGuides\sample-ig\input\examples\Binary-example.json ==
+== C:\ImplementationGuides\sample-ig\input\examples\Library-example.json ==
+ERROR: Library.where(url = 'http://somewhere.org/fhir/uv/myig/Library/example'): Conformance resource C:\ImplementationGuides\sample-ig\input\examples\Library-example.json - the canonical URL (http://hl7belgium.org/fhir/core/Library/library-example) does not match the URL (http://somewhere.org/fhir/uv/myig/Library/example)
+WARNING: Library/library-example: Library: lib-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+ERROR: Library/library-example: Library.relatedArtifact[0].resource: URL value "http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1" does not resolve
+ERROR: Library/library-example: Library.relatedArtifact[1].resource: URL value "http://hl7.org/fhir/Library/FHIRHelpers|4.0.1" does not resolve
+ERROR: Library/library-example: Library.relatedArtifact[7].resource: Canonical URLs must be absolute URLs if they are not fragment references (TBD) 
+ERROR: Library/library-example: Library.dataRequirement[4].codeFilter[0].valueSet: Canonical URLs must be absolute URLs if they are not fragment references (TBD) 
+ERROR: C:\ImplementationGuides\sample-ig\input\examples\Library-example: URL Mismatch http://hl7belgium.org/fhir/core/Library/library-example vs http://somewhere.org/fhir/uv/myig/Library/example
+== C:\ImplementationGuides\sample-ig\input\history\h1.json ==
+ERROR: Bundle.entry[0].resource.agent[0].type.coding: This property must be an Array, not an Object
+ERROR: Bundle.entry[0].resource.agent[1].type.coding: This property must be an Array, not an Object
+ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Profile http://hl7.org/fhir/StructureDefinition/Provenance, Element 'Bundle.entry[0].resource.ofType(Provenance).recorded': minimum required = 1, but only found 0
+WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set http://terminology.hl7.org/ValueSet/v3-PurposeOfUse (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse)
+== C:\ImplementationGuides\sample-ig\input\myig.xml ==
+== C:\ImplementationGuides\sample-ig\input\resources\myObservation.xml ==
+ERROR: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation'): Conformance resource C:\ImplementationGuides\sample-ig\input\resources\myObservation.xml - the canonical URL (http://hl7belgium.org/fhir/core/StructureDefinition/myObservation) does not match the URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation)
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation'): The Implementation Guide contains no examples for this profile
+ERROR: C:\ImplementationGuides\sample-ig\input\resources\myObservation: URL Mismatch http://hl7belgium.org/fhir/core/StructureDefinition/myObservation vs http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation
+== C:\ImplementationGuides\sample-ig\input\resources\valueset-no-codesystem.xml ==
+ERROR: ValueSet.where(url = 'http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem'): Conformance resource C:\ImplementationGuides\sample-ig\input\resources\valueset-no-codesystem.xml - the canonical URL (http://hl7belgium.org/fhir/core/ValueSet/valueset-no-codesystem) does not match the URL (http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem)
+WARNING: ValueSet.where(id = 'valueset-no-codesystem'): Error from server: Unable to provide support for code system http://not-a-known-code-system
+ERROR: C:\ImplementationGuides\sample-ig\input\resources\valueset-no-codesystem: URL Mismatch http://hl7belgium.org/fhir/core/ValueSet/valueset-no-codesystem vs http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem
