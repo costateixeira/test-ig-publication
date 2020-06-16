@@ -17,6 +17,7 @@
              "path" : "http://hl7belgium.org/fhir/core/2020Jun",
              "status" : "ballot",
              "date" : "2020-06-15",
+             "fhirVersion" : "4.0.1", 
              "sequence" : 1,
              "current" : true
             }
