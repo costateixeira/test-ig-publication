@@ -1,6 +1,6 @@
 {
   "version": "2020Jun",
   "fhirVersion": "[4.0.1]",
-  "date": "20200616081426",
+  "date": "20200616085950",
   "name": "hl7.be.fhir.core"
 }

@@ -3,7 +3,7 @@
 <Library xmlns="http://hl7.org/fhir">
   <id value="library-example"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: library-example</p><p><b>url</b>: <a href="http://somewhere.org/fhir/uv/myig/Library/example">http://somewhere.org/fhir/uv/myig/Library/example</a></p><p><b>version</b>: 2020Jun</p><p><b>status</b>: draft</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/library-type logic-library}">Logic Library</span></p><p><b>date</b>: 16 Jun 2020, 08:14:48</p><p><b>publisher</b>: HL7 International - [Some] Work Group</p><p><b>contact</b>: http://hl7.org/Special/committees/[something]</p><p><b>jurisdiction</b>: <span title="Codes: {http://unstats.un.org/unsd/methods/m49/m49.htm 001}">World</span></p><p><b>relatedArtifact</b>: , , , , , , , </p><p><b>parameter</b>: </p><p><b>dataRequirement</b>: , , , , </p><p><b>content</b>: , </p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: library-example</p><p><b>url</b>: <a href="http://somewhere.org/fhir/uv/myig/Library/example">http://somewhere.org/fhir/uv/myig/Library/example</a></p><p><b>version</b>: 2020Jun</p><p><b>status</b>: draft</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/library-type logic-library}">Logic Library</span></p><p><b>date</b>: 16 Jun 2020, 09:00:11</p><p><b>publisher</b>: HL7 International - [Some] Work Group</p><p><b>contact</b>: http://hl7.org/Special/committees/[something]</p><p><b>jurisdiction</b>: <span title="Codes: {http://unstats.un.org/unsd/methods/m49/m49.htm 001}">World</span></p><p><b>relatedArtifact</b>: , , , , , , , </p><p><b>parameter</b>: </p><p><b>dataRequirement</b>: , , , , </p><p><b>content</b>: , </p></div>
   </text>
   <url value="http://somewhere.org/fhir/uv/myig/Library/example"/>
   <version value="2020Jun"/>
@@ -14,7 +14,7 @@
       <code value="logic-library"/>
     </coding>
   </type>
-  <date value="2020-06-16T08:14:48+02:00"/>
+  <date value="2020-06-16T09:00:11+02:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
