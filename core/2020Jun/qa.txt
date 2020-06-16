@@ -3,7 +3,7 @@
 
 err = 17, warn = 9, info = 0
 IG Publisher Version: v1.0.100-SNAPSHOT
-Generated Mon Jun 15 22:53:34 CEST 2020. FHIR version 4.0.1 for hl7.be.fhir.core#2020Jun (canonical = http://hl7belgium.org/fhir/core)
+Generated Tue Jun 16 08:15:13 CEST 2020. FHIR version 4.0.1 for hl7.be.fhir.core#2020Jun (canonical = http://hl7belgium.org/fhir/core)
 
  Build Errors : 4 / 5
  C:\ImplementationGuides\sample-ig\input\examples\Binary-example : 0 / 0
