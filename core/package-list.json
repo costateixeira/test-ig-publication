@@ -16,6 +16,7 @@
              "desc" : "2020 June Release",
              "path" : "http://hl7belgium.org/fhir/core/2020Jun",
              "status" : "ballot",
+             "sequence" : 1,
              "current" : true
             }
         ]
