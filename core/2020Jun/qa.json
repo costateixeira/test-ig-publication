@@ -3,7 +3,7 @@
   "name": "BeOnFHIR",
   "package-id": "hl7.be.fhir.core",
   "ig-ver": "2020Jun",
-  "date": "Mon, 15 Jun, 2020 22:52:46 +0200",
+  "date": "Tue, 16 Jun, 2020 08:14:48 +0200",
   "errs": 17,
   "warnings": 9,
   "hints": 0,
